@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// Route::get('/test', 'EnvController@test');
+
+Route::resource('/env_demo', 'EnvController', ['only' => ['index']]);

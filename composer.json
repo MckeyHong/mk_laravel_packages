@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "eig/eloquent-uuid": "^1.0"
+        "eig/eloquent-uuid": "^1.0",
+        "brotzka/laravel-dotenv-editor": "2.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
